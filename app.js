@@ -24,4 +24,8 @@ class School {
 
         this._numberOfStudents = newNumberOfStudents;
     }
+
+    quickFacts() {
+        console.log(`${this._name} educates ${this._numberOfStudents} students at the ${this._level} school level.`);
+    }
 }
