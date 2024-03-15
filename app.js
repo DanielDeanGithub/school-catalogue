@@ -34,3 +34,7 @@ class School {
         return substituteTeachers[rng];
     }
 }
+
+class PrimarySchool extends School {
+    
+}
