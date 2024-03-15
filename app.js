@@ -37,6 +37,6 @@ class School {
 
 class PrimarySchool extends School {
     constructor(name, numberOfStudents, pickupPolicy) {
-
+        super(name, 'primary', numberOfStudents);
     }    
 }
