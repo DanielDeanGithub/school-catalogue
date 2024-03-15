@@ -63,3 +63,14 @@ console.log(School.pickSubstituteTeacher(['Jamal Crawford', 'Lou Williams', 'J. 
 
 const alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'Volleyball', 'Track and Field']);
 alSmith.sportsTeams;
+
+class MiddleSchool extends School {
+    constructor(name, numberOfStudents, afterSchoolActivities) {
+        super(name, 'middle', numberOfStudents);
+        this._afterSchoolActivities = afterSchoolActivities;
+    }    
+
+    get afterSchoolActivities() {
+       return this._afterSchoolActivities;
+    }
+}
